@@ -1,0 +1,44 @@
+{
+    "description": "项目配置文件。",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "bigPackageSizeSupport": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.27.1",
+    "appid": "wxee2e77850c50b984",
+    "projectname": "uniapp__music",
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "list",
+                    "pathName": "/pages/list/list",
+                    "query": "listId=3"
+                },
+                {
+                    "name": "detail",
+                    "pathName": "/pages/detail/detail",
+                    "query": "songId=1992034569"
+                }
+            ]
+        }
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}
